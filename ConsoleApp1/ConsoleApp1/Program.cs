@@ -7,9 +7,11 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             int number;
+            int startNumber = 5;
             int amplifyNumber = 7;
+            int maxNumber = 100;
 
-            for (number = 5; number < 100; number += amplifyNumber)
+            for (number = startNumber; number < maxNumber; number += amplifyNumber)
             {
                 Console.WriteLine(number);
             }
